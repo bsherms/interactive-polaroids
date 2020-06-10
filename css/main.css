@@ -31,26 +31,26 @@ html {
 }
 
 .polaroid:first-child {
-  left: 300px;
-  top: 200px;
-  transform: rotate(20deg);
+  left: 200px;
+  top: 100px;
+  transform: rotate(-20deg);
 }
 
 .polaroid:nth-child(2) {
-  left: 400px;
+  left: 300px;
   top: 150px;
-  transform: rotate(-20deg);
+  transform: rotate(15deg);
   z-index: 3;
 }
 
 .polaroid:last-child {
-  left: 600px;
+  left: 400px;
   top: 100px;
-  transform: rotate(20deg);
+  transform: rotate(30deg);
 }
 
 .polaroid:hover {
   z-index: 4;
-  box-shadow: 1px 4px 6px rgba(0, 0, 0, 3);
+  box-shadow: 5px 10px 5px rgba(0, 0, 0, 1);
   transform: rotate(0deg);
 }
