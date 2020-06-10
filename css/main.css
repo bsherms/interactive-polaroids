@@ -40,7 +40,7 @@ html {
   left: 300px;
   top: 150px;
   transform: rotate(15deg);
-  z-index: 3;
+  z-index: 4;
 }
 
 .polaroid:last-child {
@@ -50,7 +50,7 @@ html {
 }
 
 .polaroid:hover {
-  z-index: 4;
+  z-index: 5;
   box-shadow: 5px 10px 5px rgba(0, 0, 0, 1);
   transform: rotate(0deg);
 }
