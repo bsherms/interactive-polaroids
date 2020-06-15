@@ -43,7 +43,7 @@ html {
   z-index: 100;
 }
 
-.polaroid:last-child {
+.polaroid:nth-child(3) {
   left: 400px;
   top: 100px;
   transform: rotate(30deg);
